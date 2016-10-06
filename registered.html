@@ -5,6 +5,7 @@
   <title>WiPay - Pay by Wink</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="5; url=thankYou.html">
   <link rel="stylesheet" href="wipay.css">
   <script src="https://pi-test.sagepay.com/api/v1/js/sagepay-dropin.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -22,22 +23,11 @@
       <div class="headerRibbon">
         <h1>Welcome to WiPay</h1></div>
       <div class="block" id="camera">
+        <h1>Pay by a wink!</h1>
         <video class="center-block" id="player" autoplay="true"></video>
       </div>
       <div class="block" id="input">
-        <form>
-          <h2>Payment Details</h2>
-          <div id="sp-container"></div>
-          <div id="submit-container">
-            <input id="submitBtn" type="submit">
-          </div>
-          <script>
-            sagepayCheckout({
-              merchantSessionKey: 'F42164DA-4A10-4060-AD04-F6101821EFC3'
-            }).form();
-          </script>
-        </form>
-        <a href="registered.html"><button class="btn btn-primary" type="register" name="registerBtn">Register</button></a>
+        <span id="amount">£ 23.00</span>
       </div>
     </div>
   </div>

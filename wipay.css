@@ -1,55 +1,81 @@
-html {
-  background-color: #114B5F;
 
+h1 {
+ text-align: center;
 }
 
 .container {
-  background-color: #114B5F;
-  margin-top: 3em;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+    background-color: #E4FDE1;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+#amount {
+  font-size: 5em;
 }
 
 .app {
-  float: none;
-  margin: 0 auto;
-  /*width: 80%;*/
-  border-radius: 5px;
-  border: 2px solid #E4FDE1;
+    float: none;
+    margin: 0 auto;
+    /*width: 80%;*/
+    border-radius: 5px;
+    border: 2px solid #E4FDE1;
+    width: 70%;
 }
 
 .headerRibbon {
-  color: lightblue;
-  min-height: 4em;
-  text-align: center;
+    color: #114B5F;
+    min-height: 4em;
+    text-align: center;
 }
 
 .block {
-  min-height: 15em;
+    min-height: 15em;
+    text-align: center;
 }
 
 #state {
-  background-color: red;
+    background-color: red;
 }
 
-#camera {
-  background-color: green;
+#camera {}
+
+.col-center {
+    margin: 0 auto;
 }
 
-#webcamVideo {
-  background-color: lightgreen;
-  margin: 0 auto;
-  min-height: 10em;
-  width: 50%;
+#player {
+    width: 40%;
+    height: 40%;
+    padding: 1em;
 }
 
-#input {
-  background-color: blue;
+#input {}
+
+
+/* SAGE Below*/
+
+h1 {}
+
+input {
+    font-size: 12pt;
 }
-/*
-<div class="headerRibbon"><h1>Welcome to WiPay</h1></div>
-<div class="block" id="state"></div>
-<div class="block" id="camera"></div>
-<div class="block" id="input"></div>
-*/
+
+#main {
+    width: 550px;
+    margin: 0 auto;
+}
+
+#submit-container {
+    padding-top: 10px;
+    float: right;
+}
+
+input[type=submit] {
+    border: none;
+    background: indigo;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
