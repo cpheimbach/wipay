@@ -1,0 +1,55 @@
+html {
+  background-color: #114B5F;
+
+}
+
+.container {
+  background-color: #114B5F;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.app {
+  float: none;
+  margin: 0 auto;
+  /*width: 80%;*/
+  border-radius: 5px;
+  border: 2px solid #E4FDE1;
+}
+
+.headerRibbon {
+  color: lightblue;
+  min-height: 4em;
+  text-align: center;
+}
+
+.block {
+  min-height: 15em;
+}
+
+#state {
+  background-color: red;
+}
+
+#camera {
+  background-color: green;
+}
+
+#webcamVideo {
+  background-color: lightgreen;
+  margin: 0 auto;
+  min-height: 10em;
+  width: 50%;
+}
+
+#input {
+  background-color: blue;
+}
+/*
+<div class="headerRibbon"><h1>Welcome to WiPay</h1></div>
+<div class="block" id="state"></div>
+<div class="block" id="camera"></div>
+<div class="block" id="input"></div>
+*/
